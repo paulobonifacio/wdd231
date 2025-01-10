@@ -1,30 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Home page">
     <meta name="author" content="Paulo Bonifacio">
     <link rel="icon" href="images/favorite-favicon.ico">
-    
     <!-- Essential META Tags -->
     <meta property="og:title" content="Home | Paulo Bonifacio">
     <meta property="og:type" content="website">
     <meta property="og:image" content="images/panamaCity-card.jpg">
     <meta property="og:url" content="https://paulobonifacio.github.io/wdd231/index.html">
     <meta name="twitter:card" content="summary_large_image">
-
     <title>Home | Paulo Bonifacio WDD231</title>
-    
     <!-- Fonts and Stylesheets -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Lato&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style-small.css">
-    <link rel="stylesheet" href="styles/style-large.css">
-
+    <link rel="stylesheet" href="styles/normal.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
     <!-- Scripts -->
     <script src="scripts/main.js" defer></script>
     <script src="scripts/courses.js" defer></script>
@@ -38,7 +33,6 @@
         <h1>Paulo Bonifacio</h1>
         <button id="menu" title="Menu"></button>
     </header>
-    
     <nav>
         <ul>
             <li><a class="active" href="/index.html">Home</a></li>
@@ -47,7 +41,6 @@
             <li><a href="https://www.linkedin.com/in/paulo-bonif%C3%A1cio/" target="_blank">LinkedIn Profile</a></li>
         </ul>
     </nav>
-    
     <main>
         <section class="courseWork-box">
             <h2>Course Work</h2>
@@ -61,7 +54,6 @@
                 <li>Final Exam</li>
             </ul>
         </section>
-        
         <section class="certificate-box">
             <h2>Web and Computer Programming Certificate</h2>
             <div class="boxButton">
@@ -73,21 +65,18 @@
             <dialog id="courses-details"></dialog>
             <p id="totalCreditsCert01">Total Credits for Certificate 1: 0</p>
         </section>
-        
         <section class="country-box">
             <h2>Switzerland</h2>
             <picture>
-                <source media="(min-width: 868px)" srcset="images/geneva.jpeg">
-                <img src="images/geneva.jpeg" alt="Geneva">
+                <source media="(min-width: 868px)" srcset="images/geneva.jpg">
+                <img src="images/geneva.jpg" alt="Geneva">
             </picture>
             <p>Geneva City</p>
         </section>
     </main>
-    
     <footer>
         <p>&copy; <span id="currentyear">Lorem</span> Paulo Bonifacio | Switzerland</p>
         <p id="lastModified">timestamp</p>
     </footer>
 </body>
-
 </html>
