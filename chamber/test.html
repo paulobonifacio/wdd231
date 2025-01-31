@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Join | Switzerland Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://demetrioaris.github.io/wdd231/chamber/images/logo-chamber-modified-small.webp">
+    <meta property="og:url" content="https://demetrioaris.github.io/wdd231/chamber/join.html">
+    <meta property="og:description" content="Join the Switzerland Chamber of Commerce and enjoy exclusive benefits">
+    <meta property="fb:app_id" content="your-app-id-here">
+    <title>Join | Switzerland Chamber of Commerce</title>
+    <meta name="description" content="Join the Switzerland Chamber of Commerce" />
+    <meta name="author" content="Paulo Bonifacio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/normal.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/join.css" />
+    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/modules/join.js" defer></script>
+    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
+    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+</head>
+<body id="join-page">
+    <header>
+        <nav>
+            <div class="box-logo-header">
+                <img class="logo-chamber" src="../chamber/images/logo.PNG" alt="Logo Chamber Switzerland" />
+                <h1 class="nameHeader">Switzerland Chamber of Commerce</h1>
+                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+            </div>
+            <ul>
+                <li><a class="nav-a" href="./index.html">Home</a></li>
+                <li><a class="nav-a" href="./discover.html">Discover</a></li>
+                <li><a class="nav-a" href="./directory.html">Directory</a></li>
+                <li><a class="nav-a" href="./join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="membership-container">
+            <h2 class="sub-title-member">Membership Levels</h2>
+            <div class="membership-cards">
+                <div class="card">
+                    <h3>Non-Profit Membership Level</h3>
+                    <button class="css-button-arrow--black">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Bronze Membership Level</h3>
+                    <button class="css-button-arrow--black">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Silver Membership Level</h3>
+                    <button class="css-button-arrow--black">Learn More</button>
+                </div>
+                <div class="card">
+                    <h3>Gold Membership Level</h3>
+                    <button class="css-button-arrow--black">Learn More</button>
+                </div>
+            </div>
+        </section>
+
+        <form method="get" action="thankyou.html">
+            <h2 class="sub-title-form">Membership Application</h2>
+
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required placeholder="First">
+            
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required placeholder="Last">
+            
+            <label for="organizationTitle">Organizational Title:</label>
+            <input type="text" id="organizationTitle" name="organizationTitle" required>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Mobile Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required placeholder="+1 123-456-7890">
+            
+            <label for="organization">Business/Organization Name:</label>
+            <input type="text" id="organization" name="organization" required>
+            
+            <label for="membershipLevel">Membership Level:</label>
+            <select id="membershipLevel" name="membershipLevel" required>
+                <option value="" disabled selected>Select a membership level</option>
+                <option value="NP">Non-Profit</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Silver">Silver</option>
+                <option value="Gold">Gold</option>
+            </select>
+            
+            <label for="organizationDescription">Business/Organization Description:</label>
+            <textarea id="organizationDescription" name="organizationDescription" rows="4"></textarea>
+            
+            <button class="css-button-fully-rounded--grey" type="submit">Submit</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Paulo Bonifacio | Switzerland</p>
+        <p id="lastModified">timestamp</p>
+    </footer>
+</body>
+</html>

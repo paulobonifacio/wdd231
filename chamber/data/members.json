@@ -1,0 +1,64 @@
+[
+    {
+        "Name": "Richemont",
+        "Industry": "Luxury goods",
+        "Physical Address": "Geneve, Meyrin",
+        "Website": "https://www.richemont.com/",
+        "Phone": "555.551",
+        "Membership": "Gold",
+        "logo": "https://www.architectes.ch/media/image/0//166605eb71e62c581cab72b8144d958b.png"
+    },
+    {
+        "Name": "Accenture",
+        "Industry": "Consultancy Professional Services",
+        "Physical Address": "Geneve, Meyrin",
+        "Website": "https://www.accenture.com/ca-en",
+        "Phone": "555.552",
+        "Membership": "Gold",
+        "logo": "https://1000logos.net/wp-content/uploads/2021/04/Accenture-logo-768x432.png"
+    },
+    {
+        "Name": "Migros",
+        "Industry": "Retail",
+        "Physical Address": "Geneve",
+        "Website": "https://www.migros.ch/en",
+        "Phone": "555.553",
+        "Membership": "Silver",
+        "logo": "https://www.logo.wine/a/logo/Migros/Migros-Logo.wine.svg"
+    },
+    {
+        "Name": "Coop",
+        "Industry": "Retail",
+        "Physical Address": "Geneve",
+        "Website": "https://www.coop.ch/fr/",
+        "Phone": "555.554",
+        "Membership": "Bronze",
+        "logo": "https://www.coop.ch/_ui/25.1.0.408/desktop/common/img/masthead/logo/img/coop_logo.svg"
+    },
+    {
+        "Name": "TPG",
+        "Industry": "Transportation & Logistics",
+        "Physical Address": "Geneve",
+        "Website": "https://www.tpg.ch/fr",
+        "Phone": "555.555",
+        "Membership": "Silver",
+        "logo": "https://www.tpg.ch/themes/custom/tpg/logo.svg"
+    },
+    {
+        "Name": "ABB",
+        "Industry": "Energy",
+        "Physical Address": "Geneve",
+        "Website": "https://new.abb.com/ch/fr",
+        "Phone": "555.556",
+        "Membership": "Gold",
+        "logo": "https://global.abb/content/dam/abb-etc/commons/abb-logo.svg"
+    },
+    {
+        "Name": "BMW",
+        "Industry": "car manufacturer",
+        "Physical Address": "Zurique",
+        "Website": "https://www.bmw.ch/",
+        "Phone": "555.557",
+        "logo": "https://www.bmw.ch/content/dam/bmw/common/images/logo-icons/BMW/BMW_White_Logo.svg.asset.1670245093434.svg"
+    }
+]
