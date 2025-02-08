@@ -297,6 +297,118 @@ footer p:first-child {
     }
 }
 
+.left-panel {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px;
+}
+.demographics h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #00356b;
+}
+.demographics p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    color: #171210;
+}
+.demographics strong {
+    font-weight: bold;
+}
+
+/* Estilos del calendario */
+#calendar {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#calendar caption {
+    text-align: left;
+    padding: 5px 10px;
+    background-color: #003366;
+    color: #fff;
+    font-weight: bold;
+    font-size: medium;
+}
+
+#calendar th,
+#calendar td {
+    border: 1px solid var(--big-fish-to-fry);
+    padding: 8px;
+    text-align: center;
+}
+
+#calendar .hoy {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-panel {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 300px;
+    margin: 20px;
+}
+
+.right-panel {
+    flex: 1;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.responsive-image {
+    border: 2px solid red;
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.dynamic-image {
+    width: 30%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .right-panel {
+        max-width: 100%;
+    }
+    
+    .responsive-image {
+        height: auto;
+    }
+}
+
 /* mobile */
 @media (max-width: 860px) {
     .directory-intro {
@@ -306,4 +418,6 @@ footer p:first-child {
         text-align: justify; 
         margin: 0 10px; 
     }
+
+
 }
