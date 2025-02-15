@@ -1,0 +1,73 @@
+/* small.css - Estilos para telas pequenas (até 640px) */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+    gap: 15px;
+    padding: 15px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.card button {
+    margin-top: 8px;
+    padding: 8px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+    background-color: #005bb5;
+}
+
+@media (max-width: 1024px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr; /* Layout de uma única coluna */
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .card img {
+        width: 100%; /* Ajusta as imagens para ocupar toda a largura do contêiner */
+        height: auto; /* Mantém a proporção */
+        max-height: 250px; /* Define uma altura máxima para evitar imagens muito grandes */
+        object-fit: cover; /* Ajusta a imagem para cobrir o espaço sem distorcer */
+        border-radius: 6px; /* Mantém os cantos arredondados */
+    }
+
+    .card {
+        padding: 10px;
+        border-radius: 8px;
+        box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        background: white;
+    }
+
+    
+}
