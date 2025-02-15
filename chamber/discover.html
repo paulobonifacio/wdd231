@@ -4,36 +4,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Discover - Switzerland Chamber of Commerce">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Discover | Chamber Switzerland">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://paulobonifacio.github.io/wdd231/chamber/images/logo.PNG">
-    <meta property="og:url" content="https://paulobonifacio.github.io/wdd231/chamber/discover.html">
-    <meta property="og:description" content="Discover the benefits of the Suisse Chamber">
+    <meta property="og:url" content="https://paulobonifacio.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Discover | Switzerland Chamber of Commerce">
     <meta property="fb:app_id" content="your-app-id-here">
+
     <title>Discover | Switzerland Chamber of Commerce</title>
-    <meta name="description" content="Discover what the Switzerland Chamber of Commerce has to offer" />
+    <meta name="description" content="Discover | Switzerland Chamber of Commerce" />
     <meta name="author" content="Paulo Bonifacio" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" 
+          href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" 
+          as="style" 
+          onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+        <link rel="stylesheet" 
+              href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
     </noscript>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="styles/normal.css" />
     <link rel="stylesheet" href="styles/main.css" />
-    <script type="module" src="./scripts/main.js"></script>
-    <script src="./scripts/discover.js" defer></script>
-    <link rel="icon" href="images/favicon-main-modified.ico" sizes="48x48" type="image/ico">
-    <script src="https://kit.fontawesome.com/e0a574ddb0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/small.css" media="(max-width: 1024px)" />
+    <link rel="stylesheet" href="styles/large.css" media="(min-width: 1025px)" />
+
+    <!-- Scripts -->
+    <script src="scripts/discover.js" defer></script>
+    <script src="scripts/main.js" defer></script>
+
 </head>
 
 <body id="discover-page">
     <header>
         <nav>
             <div class="box-logo-header">
-                <img class="logo-chamber" src="../chamber/images/logo.PNG" alt="Logo Chamber Switzerland" />
+                <img class="logo-chamber" 
+                     src="../chamber/images/logo.PNG" 
+                     alt="Logo Chamber Switzerland" />
                 <h1 class="nameHeader">Switzerland Chamber of Commerce</h1>
-                <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
+                <button name="navigation button" 
+                        id="menu" 
+                        aria-label="Toggle menu"></button>
             </div>
             <ul>
                 <li><a class="nav-a" href="./index.html">Home</a></li>
@@ -44,58 +62,16 @@
         </nav>
     </header>
 
-    <main>
-        <h2 class="sr-only">Discover | Switzerland Chamber of Commerce</h2>
-        <div class="container">
-            <div class="left-panel demographics">
-                <h2>Demographics</h2>
-                <p><strong>Capital:</strong> Bern</p>
-                <p><strong>Currencies:</strong> Suisse Franc - CHF</p>
-                <p><strong>Official languages:</strong> Romansh, German, Italian and French</p>
-                <p><strong>Population:</strong> 4,515,577</p>
-                <p><strong>Dialing code:</strong> +507</p>
-            </div>
-
-            <div class="left-panel calendar">
-                <table id="calendar">
-                    <caption>Calendar</caption>
-                    <thead>
-                        <tr>
-                            <th>Dim</th>
-                            <th>Lun</th>
-                            <th>Mar</th>
-                            <th>Mer</th>
-                            <th>Jeu</th>
-                            <th>Ven</th>
-                            <th>Sam</th>
-                        </tr>
-                    </thead>
-                    <tbody> </tbody>
-                </table>
-            </div>
-
-            <div class="right-panel">
-                <div class="responsive-image" id="div1">
-                    <div class="image-wrapper">
-                        <img src="./images/event1.jpeg" alt="Image 1" class="dynamic-image">
-                        <img src="./images/event2.jpeg" alt="Image 2" class="dynamic-image">
-                        <img src="./images/event3.jpeg" alt="Image 3" class="dynamic-image">
-                    </div>
-                </div>
-                <div class="responsive-image" id="div2">
-                    <div class="image-wrapper">
-                        <img src="./images/event1.jpeg" alt="Image 1" class="dynamic-image">
-                        <img src="./images/event1.jpeg" alt="Image 2" class="dynamic-image">
-                        <img src="./images/event1.jpeg" alt="Image 3" class="dynamic-image">
-                    </div>
-                </div>
-            </div>
-        </div>
+    <main>        
+        <section class="grid-container">
+            <!-- Cards will be triggered from here -->
+        </section>
     </main>
-
+    
     <footer>
         <p>&copy;<span id="currentyear">Lorem</span> Paulo Bonifacio | Switzerland</p>
         <p id="lastModified">timestamp</p>
     </footer>
 </body>
+
 </html>
