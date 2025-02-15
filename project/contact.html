@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Open Graph metadata for social media sharing -->
+    <meta property="og:title" content="Quebec Experience - Contact">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://paulobonifacio.github.io/wdd231/chamber/images/logo.PNG">
+    <meta property="og:url" content="https://paulobonifacio.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Chamber of Switzerland, Join us to get more information">
+    <meta property="fb:app_id" content="your-app-id-here">
+    
+    <title>Quebec Experience - Contact</title>
+    <meta name="description" content="Quebec Experience - Contact" />
+    <meta name="author" content="Paulo Bonifacio" />
+
+    <!-- Preload fonts for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    </noscript>
+    
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/form.css">
+    <link rel="icon" href="images/favicon.png">
+    <script defer src="./scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- Mobile menu toggle button -->
+            <button id="menu-toggle">☰</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="contact-container">
+            <!-- Contact image section -->
+            <div class="contact-image">
+                <img src="images/flag.png" alt="Beautiful view of Quebec City">
+            </div>
+            
+            <!-- Contact form section -->
+            <div id="contact-form">
+                <h1>Contact Us</h1>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Paulo Bonifacio | Switzerland</p>
+        <p id="lastModified">timestamp</p>
+    </footer>
+</body>
+</html>

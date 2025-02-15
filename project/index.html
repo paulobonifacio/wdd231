@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Open Graph metadata for social media sharing -->
+    <meta property="og:title" content="Quebec Experience - Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://paulobonifacio.github.io/wdd231/chamber/images/logo.PNG">
+    <meta property="og:url" content="https://paulobonifacio.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Chamber of Switzerland, Join us to get more information">
+    <meta property="fb:app_id" content="your-app-id-here">
+    
+    <title>Quebec Experience - Home</title>
+    <meta name="description" content="Quebec Experience - Home" />
+    <meta name="author" content="Paulo Bonifacio" />
+
+    <!-- Preload fonts for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    </noscript>
+    
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="images/favicon.png">
+    <script defer src="./scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Mobile menu toggle button -->
+            <button id="menu-toggle">☰</button>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <img src="images/Chateau_Frontenac.png" alt="Quebec City" loading="lazy">
+            <h1>Welcome to Quebec City</h1>
+            <p>Explore the beauty, history, and gastronomy of one of Canada's most iconic destinations.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Paulo Bonifacio | Switzerland</p>
+        <p id="lastModified">timestamp</p>
+    </footer>
+</body>
+</html>

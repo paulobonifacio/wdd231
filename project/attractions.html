@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Open Graph metadata for social media sharing -->
+    <meta property="og:title" content="Quebec Experience - Attractions">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://paulobonifacio.github.io/wdd231/chamber/images/logo.PNG">
+    <meta property="og:url" content="https://paulobonifacio.github.io/wdd231/chamber/directory.html">
+    <meta property="og:description" content="Chamber of Switzerland, Join us to get more information">
+    <meta property="fb:app_id" content="your-app-id-here">
+    
+    <title>Quebec Experience - Attractions</title>
+    <meta name="description" content="Quebec Experience - Attractions" />
+    <meta name="author" content="Paulo Bonifacio" />
+
+    <!-- Preload fonts for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    
+    <!-- Fallback for users with JavaScript disabled -->
+    <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;700&display=swap">
+    </noscript>
+    
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="images/favicon.png">
+    <script defer src="./scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <!-- Mobile menu toggle button -->
+            <button id="menu-toggle">☰</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="attractions-container">
+            <h1>Top Attractions in Quebec City</h1>
+            <p>Discover the must-see places in Quebec.</p>
+
+            <div class="attractions-wrapper">
+                <!-- Château Frontenac -->
+                <div class="attraction">
+                    <img src="images/Château_Frontenac_at_night.jpg" alt="Château Frontenac" loading="lazy">
+                    <p>Château Frontenac: A historic luxury hotel and a symbol of Quebec City.</p>
+                </div>
+
+                <!-- Quartier Petit Champlain -->
+                <div class="attraction">
+                    <img src="images/champlain2.webp" alt="Quartier Petit Champlain" loading="lazy">
+                    <p>Quartier Petit Champlain: A charming district with cobblestone streets and boutiques.</p>
+                </div>
+
+                <!-- Montmorency Falls -->
+                <div class="attraction">
+                    <img src="images/falls.jpg" alt="Montmorency Falls" loading="lazy">
+                    <p>Montmorency Falls: A stunning waterfall higher than Niagara Falls.</p>
+                </div>
+            </div>
+
+            <!-- Quebec Gastronomy Section -->
+            <h2 id="food-title">Come and Taste Quebec's Gastronomy</h2>
+            <div class="food-wrapper">
+                <!-- Poutine -->
+                <div class="food-item">
+                    <img src="./images/poutine.jpg" alt="Poutine" class="food-image" loading="lazy">
+                    <p>Poutine: Fries, cheese curds, and gravy—a Quebec classic.</p>
+                </div>
+
+                <!-- Tourtière -->
+                <div class="food-item">
+                    <img src="./images/tourtiere.png" alt="Tourtière" class="food-image" loading="lazy">
+                    <p>Tourtière: A traditional meat pie, especially popular during the holidays.</p>
+                </div>
+
+                <!-- Tire sur la neige -->
+                <div class="food-item">
+                    <img src="./images/tire.png" alt="Tire sur la neige" class="food-image" loading="lazy">
+                    <p>Tire sur la neige: Hot maple syrup poured on snow and rolled into a sweet treat.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy;<span id="currentyear">Lorem</span> Paulo Bonifacio | Switzerland</p>
+        <p id="lastModified">timestamp</p>
+    </footer>
+</body>
+</html>
