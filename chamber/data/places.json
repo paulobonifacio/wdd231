@@ -1,0 +1,61 @@
+{
+    "places": [
+      {
+        "title": "Zytglogge Tower",
+        "image": "images/zytglogge.webp",
+        "address": "Kramgasse 49, 3011 Bern, Switzerland",
+        "description": "A landmark medieval clock tower in the old city of Bern.",
+        "link": "https://www.bern.com/en/detail/zytglogge"
+      },
+      {
+        "title": "Château de Chillon",
+        "image": "images/chillon.webp",
+        "address": "Avenue de Chillon 21, 1820 Veytaux, Switzerland",
+        "description": "A romantic medieval castle on the shores of Lake Geneva.",
+        "link": "https://www.chillon.ch/en/"
+      },
+      {
+        "title": "Matterhorn",
+        "image": "images/matterhorn.webp",
+        "address": "Zermatt, Switzerland",
+        "description": "One of the most iconic and beautiful mountains in the world.",
+        "link": "https://www.zermatt.ch/en"
+      },
+      {
+        "title": "Rhine Falls",
+        "image": "images/rhinefalls.webp",
+        "address": "Rheinfallquai, 8212 Neuhausen am Rheinfall, Switzerland",
+        "description": "Europe's largest waterfall, a breathtaking natural wonder.",
+        "link": "https://rheinfall.ch/en"
+      },
+      {
+        "title": "Jungfraujoch",
+        "image": "images/jungfraujoch.webp",
+        "address": "Jungfraujoch, 3801 Lauterbrunnen, Switzerland",
+        "description": "The highest railway station in Europe, offering stunning views.",
+        "link": "https://www.jungfrau.ch/en-gb/"
+      },
+      {
+        "title": "Kapellbrücke",
+        "image": "images/kapellbruecke.webp",
+        "address": "Kapellbrücke, 6002 Lucerne, Switzerland",
+        "description": "A charming covered wooden footbridge in Lucerne.",
+        "link": "https://www.luzern.com/en/"
+      },
+      {
+        "title": "Lake Geneva",
+        "image": "images/lakegeneva.webp",
+        "address": "Lake Geneva, Switzerland",
+        "description": "A beautiful crescent-shaped lake shared between Switzerland and France.",
+        "link": "https://www.region-du-leman.ch/en"
+      },
+      {
+        "title": "Swiss National Museum",
+        "image": "images/swissmuseum.webp",
+        "address": "Museumstrasse 2, 8001 Zürich, Switzerland",
+        "description": "A museum showcasing Switzerland’s cultural history.",
+        "link": "https://www.landesmuseum.ch/en"
+      }
+    ]
+  }
+  
